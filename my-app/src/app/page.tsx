@@ -1,9 +1,10 @@
-import { Button } from "@/components/ui/button";
+import { prisma } from "@/lib/db";
 
-export default function Home() {
+export default async function Home() {
+
   return (
     <div>
-      <Button variant={"destrictive"} size={"lg"} className="">submit</Button>
+      hello
     </div>
   );
 }
